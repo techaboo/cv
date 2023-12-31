@@ -2,12 +2,10 @@ body {
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
-  background-color: #F8F8F8; /* Off-White */
-  color: #333333; /* Dark Charcoal */
 }
 
 h1, h2, h3 {
-  color: #007FFF; /* Electric Blue */
+  color: #66BFBF;
   line-height: 1.5;
 }
 
@@ -33,32 +31,30 @@ p {
 
 .pro {
   text-decoration: underline;
-  color: #39FF14; /* Neon Green */
 }
 
 div {
-  background-color: #708090; /* Slate Grey */
+  background-color: #f9ed69;
 }
 
 .top {
   padding-top: 100px;
-  background-color: #007FFF; /* Electric Blue */
-  position: relative;
+  background-color: #E4F9F5;
 }
 
 .bottom-cloud, .top-cloud {
   position: absolute;
-  z-index: -1;
 }
 
 .bottom-cloud {
-  left: 10%;
-  bottom: 10%;
+  left: 500px;
+  bottom: 300px;
 }
 
 .top-cloud {
-  right: 10%;
-  top: 10%;
+  padding: 10px;
+  right: 500px;
+  top: 50px;
 }
 
 .skill-row {
@@ -92,8 +88,8 @@ div {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  background-color: #39FF14; /* Neon Green */
-  color: #FFFFFF; /* White for contrast */
+  background-color: #0097d5;
+  color: #fff;
   font-size: 20px;
   font-family: "Proxima Nova", sans-serif;
   font-weight: 600;
@@ -105,27 +101,25 @@ div {
 }
 
 .btn:hover {
-  background-color: #333333; /* Dark Charcoal */
-  color: #FFFFFF; /* White for contrast */
+  background-color: black;
   transform: scale(1.05);
 }
 
 a {
   text-decoration: none;
   margin: 10px 20px;
-  color: #007FFF; /* Electric Blue */
+  color: white;
 }
 
 hr {
-  border-top: 10px dotted #39FF14; /* Neon Green */
+  border-top: 10px dotted grey;
   width: 80px;
   opacity: 0.5;
 }
 
 .bottom-container {
-  background-color: #708090; /* Slate Grey */
+  background-color: #66BFBF;
   padding: 50px 0;
-  position: relative;
 }
 
 @media screen and (max-width: 600px) {
@@ -145,8 +139,8 @@ hr {
   }
 
   .top-cloud, .bottom-cloud {
-    display: none; /* Hide on small screens */
+    display: none; /* Hide clouds on small screens */
   }
 }
 
-/* Add any other specific adjustments as needed */
+/* Add any other responsive adjustments as needed */
