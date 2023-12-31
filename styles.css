@@ -4,25 +4,29 @@ body {
   font-family: 'Merriweather', serif;
 }
 
+h1, h2, h3 {
+  color: #66BFBF;
+  line-height: 1.5;
+}
+
 h1 {
   font-size: 90px;
   font-family: 'Sacramento', cursive;
-  margin: 50px auto 0 auto;
-  color: #66BFBF;
-  line-height: 2;
+  margin-top: 50px;
 }
 
 h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;
-  color: #66BFBF;
-  font-weight: normal;
-  line-height: 2;
 }
 
 h3 {
   font-family: 'Montserrat', sans-serif;
-  color: #11999E;
+}
+
+p {
+  font-family: 'Montez', cursive;
+  font-size: 30px;
 }
 
 .pro {
@@ -35,40 +39,45 @@ div {
 
 .top {
   padding-top: 100px;
-  position: relative;
   background-color: #E4F9F5;
 }
 
-.bottom-cloud {
+.bottom-cloud, .top-cloud {
   position: absolute;
+}
+
+.bottom-cloud {
   left: 500px;
   bottom: 300px;
 }
 
 .top-cloud {
   padding: 10px;
-  position: absolute;
   right: 500px;
   top: 50px;
 }
 
 .skill-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px auto;
   width: 50%;
-  margin: 100px auto 100px auto;
-  text-align: left;
   line-height: 2;
+}
+
+.ITIL, .HDR {
+  margin: 15px;
 }
 
 .ITIL {
   width: 25%;
   float: left;
-  margin-right: 30px;
 }
 
 .HDR {
   width: 30%;
   float: right;
-  margin-left: 30px;
 }
 
 .Photo {
@@ -76,63 +85,62 @@ div {
 }
 
 .btn {
-  font-size: 20px;
-  padding: 0 60px 0 32px;
-}
-
-.btn {
-  border-radius: 50px;
-}
-
-.btn {
-  font-size: 20px;
-  padding: 0 60px 0 32px;
-}
-
-.btn {
-  border-radius: 50px;
-}
-
-.btn {
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
   display: inline-flex;
-  position: relative;
+  align-items: center;
+  justify-content: center;
   background-color: #0097d5;
-  width: auto;
   color: #fff;
-  border: none;
-  overflow: hidden;
-  transition: all .2s;
+  font-size: 20px;
   font-family: "Proxima Nova", sans-serif;
   font-weight: 600;
-  white-space: nowrap;
   text-decoration: none;
+  border: none;
+  border-radius: 50px;
+  padding: 10px 60px;
+  transition: background-color .2s, transform .2s;
 }
 
-a:hover {
+.btn:hover {
   background-color: black;
+  transform: scale(1.05);
 }
-hr {
- border-top: 10px dotted grey;
- width: 80px;
- opacity: 0.5;
-}
-p {
-  font-family: 'Montez', cursive;
-  font-size: 30px;
-}
-.bottom-container{
-  background-color: #66BFBF;
-  padding: 50px 0 20px;
 
-}
-a{
+a {
   text-decoration: none;
   margin: 10px 20px;
-}
-.copyright{
-  padding-top: 50px;
   color: white;
-  background-color: #66BFBF;
 }
+
+hr {
+  border-top: 10px dotted grey;
+  width: 80px;
+  opacity: 0.5;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0;
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 50px; /* Adjust for mobile */
+  }
+
+  .skill-row {
+    width: 100%; /* Full width on small screens */
+    text-align: center;
+  }
+
+  .ITIL, .HDR {
+    float: none;
+    width: auto;
+    margin: 10px auto;
+  }
+
+  .top-cloud, .bottom-cloud {
+    display: none; /* Hide clouds on small screens */
+  }
+}
+
+/* Add any other responsive adjustments as needed */
