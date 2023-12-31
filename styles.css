@@ -2,10 +2,12 @@ body {
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
+  background-color: #F8F8F8; /* Off-White */
+  color: #333333; /* Dark Charcoal */
 }
 
 h1, h2, h3 {
-  color: #66BFBF;
+  color: #007FFF; /* Electric Blue */
   line-height: 1.5;
 }
 
@@ -31,30 +33,32 @@ p {
 
 .pro {
   text-decoration: underline;
+  color: #39FF14; /* Neon Green */
 }
 
 div {
-  background-color: #f9ed69;
+  background-color: #708090; /* Slate Grey */
 }
 
 .top {
   padding-top: 100px;
-  background-color: #E4F9F5;
+  background-color: #007FFF; /* Electric Blue */
+  position: relative;
 }
 
 .bottom-cloud, .top-cloud {
   position: absolute;
+  z-index: -1;
 }
 
 .bottom-cloud {
-  left: 500px;
-  bottom: 300px;
+  left: 10%;
+  bottom: 10%;
 }
 
 .top-cloud {
-  padding: 10px;
-  right: 500px;
-  top: 50px;
+  right: 10%;
+  top: 10%;
 }
 
 .skill-row {
@@ -88,8 +92,8 @@ div {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  background-color: #0097d5;
-  color: #fff;
+  background-color: #39FF14; /* Neon Green */
+  color: #FFFFFF; /* White for contrast */
   font-size: 20px;
   font-family: "Proxima Nova", sans-serif;
   font-weight: 600;
@@ -101,25 +105,27 @@ div {
 }
 
 .btn:hover {
-  background-color: black;
+  background-color: #333333; /* Dark Charcoal */
+  color: #FFFFFF; /* White for contrast */
   transform: scale(1.05);
 }
 
 a {
   text-decoration: none;
   margin: 10px 20px;
-  color: white;
+  color: #007FFF; /* Electric Blue */
 }
 
 hr {
-  border-top: 10px dotted grey;
+  border-top: 10px dotted #39FF14; /* Neon Green */
   width: 80px;
   opacity: 0.5;
 }
 
 .bottom-container {
-  background-color: #66BFBF;
+  background-color: #708090; /* Slate Grey */
   padding: 50px 0;
+  position: relative;
 }
 
 @media screen and (max-width: 600px) {
@@ -139,8 +145,8 @@ hr {
   }
 
   .top-cloud, .bottom-cloud {
-    display: none; /* Hide clouds on small screens */
+    display: none; /* Hide on small screens */
   }
 }
 
-/* Add any other responsive adjustments as needed */
+/* Add any other specific adjustments as needed */
