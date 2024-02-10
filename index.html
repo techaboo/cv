@@ -1,64 +1,71 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Andrew Shannon</title>
-  <link rel="stylesheet" href="styles.css">
-  <link rel="icon" href="favicon.ico">
-  <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Merriweather|Montez|Montserrat|Sacramento&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <!-- Ensures proper rendering and touch zooming on mobile devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>System Administrator Expertise</title>
+    <!-- External CSS linked -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Tailwind CSS for utility classes -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
 </head>
-
 <body>
-  <div class="top">
-    <img class="top-cloud" src="cloud.png" alt="cloud-img">
-    <h1>I'm Andrew.</h1>
-    <h2>
-      <p>a <span class="pro">System</span>Administrator</p>
-    </h2>
-    <img class="bottom-cloud" src="cloud.png" alt="cloud-img">
-    <img src="mountain.png" alt="mountain-img">
-  </div>
 
-  <div class="middle-container">
-    <div class="profile">
-      <img class="Photo" src="andrew.jpg" alt="Andrew Shannon">
-      <h2>Hello.</h2>
-      <p>
-I've been navigating the intricacies of system administration for over two decades. Staying ahead in this field means continually evolving with technology and understanding complex network environments. As the lead System Administrator at Techaboo Solutions, I'm passionate about designing robust system architectures and ensuring seamless IT operations.</p>
+        <header class="bg-gray-800 text-white p-4">
+             <header class="bg-gray-800 text-white p-4 flex justify-between items-center">
+            <!-- Logo as a home link -->
+            <a href="/" class="logo">
+                <img src="techaboologo.png" alt="Techaboo Logo" class="logo-img">
+            </a>
+            <h1 class="text-3xl font-bold hidden">Techaboo System Administrator</h1>
+            <!-- Navbar if needed -->
+        </header>
+        
+            <h1 class="text-3xl font-bold">Techaboo System Administration</h1>
+            <!-- Navbar if needed -->
+        </header>
+<section id="hero" class="relative bg-gray-200" style="max-height: 500px; overflow: hidden;">
+    <div id="carousel" class="carousel">
+        <!-- Images will scale properly with CSS -->
+        <img src="server-racks.jpg" alt="Server Racks" class="carousel-img">
+        <img src="network-infrastructure.jpg" alt="Network Infrastructure" class="carousel-img">
+        <img src="windows-server.jpg" alt="Windows Server" class="carousel-img">
+        <!-- Additional slides as needed -->
     </div>
-    <hr>
-    <div class="skills">
-      <h2>My Skills.</h2>
-      <div class="skill-row">
-        <img class="ITIL" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR9xEbPLTKh67krqMDvvbj0GVhrcMVqIIcl6Etpf5HXyFq-jAf9" alt="Skills">
-        <h3>System Architecture & Network Management</h3>
-
-        <p>
-From early childhood, I was drawn to the complexities of computer systems. My expertise includes advanced knowledge in network infrastructure, cybersecurity measures, and cloud-based solutions. </p>
-      </div>
-      <div class="skill-row">
-        <img class="HDR" src="https://thinkhdi.files.wordpress.com/2010/09/hdi-certified.jpg" alt="">
-        <h3>ITIL & HDI Certified</h3>
-
-        <p>With certifications in ITIL and HDI, I bring industry-standard practices to managing IT services and customer support within our organization.</p>
-      </div>
-    </div>
-    <hr>
-    <div class="contact-me">
-      <h2>Get In Touch</h2>
-      <h3>Transforming Vision into System Solutions.</h3>
-      <p>Ready to elevate your IT infrastructure? Let's discuss how we can turn your vision into an effective and efficient reality. For serious inquiries, please reach out to me.</p>
-
-      <a class="btn" href="mailto:techaboo@gmail.com?subject= System Administrator Inquiry">CONTACT ME</a>
-    </div>
-  </div>
-
-  <div class="bottom-container">
-    <a class="footer-link" href="https://www.linkedin.com/in/andrew-shannon-59a494b9/" target="_blank">LinkedIn</a>
+</section>
+<!-- Introduction section for System Administrator expertise -->
+<section class="bg-white py-8 px-4">
+    <div class="max-w-6xl mx-auto">
+        <div class="text-center mb-10">
+            <h2 class="text-4xl font-bold text-gray-800 mb-4">Professional System Administration Services</h2>
+            <p class="text-md text-gray-600">
+                Are you looking for a reliable, skilled and experienced System Administrator to handle your IT needs? If so, you have come to the right place. I am a System Administrator with 17 years of experience in managing, maintaining and troubleshooting various systems and networks.
+                <br><br>
+                I have worked with different platforms, such as Windows, Linux, MacOS, AWS, Azure, etc. I have also handled various tasks, such as server installation and configuration, backup and recovery, security and performance optimization, user support and training, etc. I have a proven track record of delivering high-quality results in a timely and cost-effective manner.
+                <br><br>
+                I am always eager to learn new technologies and skills to keep up with the changing IT landscape. I am also a good communicator and team player who can work well with clients and colleagues. Whether you need a System Administrator for a short-term project or a long-term partnership, I am confident that I can meet your expectations and exceed them.
+                <br><br>
+                Contact me today and let's discuss how I can help you achieve your IT goals.
+			    <br><br>
+				 <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/andrew-shannon-59a494b9/" target="_blank">LinkedIn</a> |
     <a class="footer-link" href="experience.html" target="_blank">My Experience</a>
-    <div class="copyright"><p> © 2018 Andrew Shannon.</p>
+    
+            </p>
+        </div>
     </div>
-  </div>
+</section>
+
+
+
+        <footer class="bg-gray-800 text-white p-4 text-center fixed bottom-0 w-full">
+            © 2024 System Administrator Expertise
+        </footer>
+    </div>
+
+    <!-- JavaScript for Carousel -->
+    <script src="script.js"></script>
 </body>
 </html>
