@@ -1,0 +1,63 @@
+/* Existing styles... */
+
+/* Updated styles for carousel images */
+.carousel-img {
+    width: 100%; /* Ensures image takes full width of the screen */
+    max-height: 500px; /* Maximum height the image can take */
+    height: auto; /* Adjust height automatically to maintain aspect ratio */
+    display: block; /* Change this to 'block' to display images */
+    object-fit: cover; /* Ensures the image covers the area without stretching */
+}
+
+.carousel {
+    display: flex; /* Using flexbox to manage carousel items */
+    overflow: hidden; /* Hide the overflowed part of images */
+}
+
+/* You may also want to ensure the .body-wrapper doesn't add horizontal scroll */
+.body-wrapper {
+    overflow-x: hidden;
+}
+
+/* Additional responsive styling if needed */
+/* ... existing styles ... */
+
+/* Styles for the System Administrator introduction section */
+section.bg-white {
+    background-color: #fff; /* White background for contrast */
+    padding: 2rem 0; /* Spacing above and below the text */
+}
+
+section.bg-white .max-w-6xl {
+    max-width: 6xl; /* Max width of the content for readability */
+    margin: auto; /* Center the content */
+}
+
+section.bg-white h2 {
+    font-size: 2rem; /* Large font size for headings */
+    color: #1a202c; /* Tailwind's gray-800 for dark text */
+    margin-bottom: 1rem; /* Spacing below the heading */
+}
+
+section.bg-white p {
+    font-size: 1rem; /* Standard font size for paragraph text */
+    color: #718096; /* Tailwind's gray-600 for lighter text */
+    line-height: 1.6; /* Line height for better readability */
+    margin-bottom: 0.5rem; /* Spacing between paragraphs */
+}
+
+/* ... additional styles ... */
+/* ... existing styles ... */
+
+/* Styles for the logo in the header */
+.logo-img {
+    height: 60px; /* Adjust height as needed */
+    width: auto; /* Maintain aspect ratio */
+}
+
+/* You may want to add some padding around the logo if necessary */
+.logo {
+    padding: 10px;
+}
+
+/* ... additional styles ... */
