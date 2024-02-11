@@ -2,69 +2,54 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <!-- Ensures proper rendering and touch zooming on mobile devices -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>System Administrator Expertise</title>
-    <!-- External CSS linked -->
     <link href="style.css" rel="stylesheet">
-    <!-- Tailwind CSS for utility classes -->
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-
 </head>
 <body>
+    <header class="bg-gray-800 text-white p-4 flex justify-between items-center">
+        <a href="/" class="logo">
+            <img src="techaboologo.png" alt="Techaboo Logo" class="logo-img">
+        </a>
+        <h1 class="text-3xl font-bold">Techaboo System Administration</h1>
+    </header>
 
-        <header class="bg-gray-800 text-white p-4">
-             <header class="bg-gray-800 text-white p-4 flex justify-between items-center">
-            <!-- Logo as a home link -->
-            <a href="/" class="logo">
-                <img src="techaboologo.png" alt="Techaboo Logo" class="logo-img">
-            </a>
-            <h1 class="text-3xl font-bold hidden">Techaboo System Administrator</h1>
-            <!-- Navbar if needed -->
-        </header>
-        
-            <h1 class="text-3xl font-bold">Techaboo System Administration</h1>
-            <!-- Navbar if needed -->
-        </header>
-<section id="hero" class="relative bg-gray-200" style="max-height: 500px; overflow: hidden;">
-    <div id="carousel" class="carousel">
-        <!-- Images will scale properly with CSS -->
-        <img src="server-racks.jpg" alt="Server Racks" class="carousel-img">
-        <img src="network-infrastructure.jpg" alt="Network Infrastructure" class="carousel-img">
-        <img src="windows-server.jpg" alt="Windows Server" class="carousel-img">
-        <!-- Additional slides as needed -->
-    </div>
-</section>
-<!-- Introduction section for System Administrator expertise -->
-<section class="bg-white py-8 px-4">
-    <div class="max-w-6xl mx-auto">
-        <div class="text-center mb-10">
+    <section id="hero" class="relative bg-gray-200" style="max-height: 500px; overflow: hidden;">
+        <div id="carousel" class="carousel">
+            <img src="server-racks.jpg" alt="Server Racks" class="carousel-img">
+            <img src="network-infrastructure.jpg" alt="Network Infrastructure" class="carousel-img">
+            <img src="windows-server.jpg" alt="Windows Server" class="carousel-img">
+        </div>
+    </section>
+
+    <section class="bg-white py-8 px-4">
+        <div class="max-w-6xl mx-auto text-center mb-10">
             <h2 class="text-4xl font-bold text-gray-800 mb-4">Professional System Administration Services</h2>
             <p class="text-md text-gray-600">
-                Are you looking for a reliable, skilled and experienced System Administrator to handle your IT needs? If so, you have come to the right place. I am a System Administrator with 17 years of experience in managing, maintaining and troubleshooting various systems and networks.
-                <br><br>
-                I have worked with different platforms like Windows, Linux, MacOS, AWS, Azure, etc. I have also handled various tasks, such as server installation and configuration, backup and recovery, security and performance optimization, user support and training, etc. I have a proven track record of delivering high-quality results in a timely and cost-effective manner.
-                <br><br>
-                I am always eager to learn new technologies and skills to keep up with the changing IT landscape. I am also a good communicator and team player who can work well with clients and colleagues. Whether you need a System Administrator for a short-term project or a long-term partnership, I am confident that I can meet your expectations and exceed them.
-                <br><br>
-                Contact me today to discuss how I can help you achieve your IT goals.
-			    <br><br>
-				 <div class="bottom-container">
-       <p><div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="andrew-shannon84" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/andrew-shannon84?trk=profile-badge">Andrew Shannon</a></div></p>
-               |
-       <p><a target="_blank" href="experience.html">My Experience</a></p>
-    
+                Are you looking for a reliable, skilled and experienced System Administrator to handle your IT needs? ...
             </p>
-        </div>
-    </div>
-</section>
-        <footer class="bg-gray-800 text-white p-4 text-center fixed bottom-0 w-full">
-            © 2024 System Administrator Expertise
-        </footer>
-    </div>
+           <div class="mt-4 flex items-center justify-center">
+    <a class="badge-base LI-profile-badge flex items-center" href="https://www.linkedin.com/in/andrew-shannon84?trk=profile-badge" target="_blank">
+        Andrew Shannon
+    </a>
+    <span class="separator" style="margin: 0 8px;">|</span>
+    <a target="_blank" href="experience.html" class="flex items-center">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-briefcase" viewBox="0 0 16 16">
+            <path d="M6.5 0A1.5 1.5 0 0 0 5 1.5V2H1.5A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2H11v-.5A1.5 1.5 0 0 0 9.5 0h-3zM6 1.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5V2H6v-.5zM1.5 3A.5.5 0 0 1 2 2.5h12a.5.5 0 0 1 .5.5V4H1v-.5zm-.5 2.5v8a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-8H1z"/>
+        </svg>
+        My Experience
+    </a>
+</div>
 
-    <!-- JavaScript for Carousel -->
+        </div>
+    </section>
+
+    <footer class="bg-gray-800 text-white p-4 text-center fixed bottom-0 w-full">
+        © 2024 System Administrator Expertise
+    </footer>
+
     <script src="script2.js"></script>
-	<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+    <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
 </body>
 </html>
