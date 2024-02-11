@@ -71,6 +71,6 @@ section.bg-white p {
         border-radius: 1px;
       }
 /* This is the hover effect */
-a:hover {
+.btn a:hover {
   background-color: blue;
 }
