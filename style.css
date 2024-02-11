@@ -70,3 +70,7 @@ section.bg-white p {
         padding: 5px;
         border-radius: 1px;
       }
+/* This is the hover effect */
+a:hover {
+  background-color: blue;
+}
