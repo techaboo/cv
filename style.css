@@ -63,7 +63,7 @@ section.bg-white p {
 /* ... additional styles ... */
 }
 /* This is for the resume button */
-.Bios {text-decoration: none;
+a.Bios {text-decoration: none;
         border: 0.2px solid #000;
         color: #000;
         background: #e6e4e4;
